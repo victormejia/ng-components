@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { NgComponentsVmejiaComponent } from './ng-components-vmejia.component';
+import { HackerStatusComponent } from './hacker-status/hacker-status.component';
 
 @NgModule({
   imports: [
   ],
-  declarations: [NgComponentsVmejiaComponent],
-  exports: [NgComponentsVmejiaComponent]
+  declarations: [HackerStatusComponent],
+  exports: [HackerStatusComponent]
 })
 export class NgComponentsVmejiaModule { }
